@@ -77,7 +77,7 @@ Para mudar o ponto de origem das habilidades, basta alterar os parâmetros na fu
 Para mudar a forma de cada habilidade, basta ajustar as funções de construção das matrizes.
 
 👨‍💻 Autor
-Desenvolvido por Thamires Oliveira, como exercício avançado como parte do projeto educacional MateCheck 
+Desenvolvido por Thamires Oliveira, como exercício avançado como parte do projeto educacional
 – Cursos-TI, com foco no aprendizado prático de lógica e programação em linguagem C.
 
 📝 Licença

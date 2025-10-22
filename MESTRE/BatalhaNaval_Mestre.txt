@@ -1,0 +1,86 @@
+🚢 Batalha Naval com Habilidades Especiais — Projeto em C
+Uma implementação avançada e interativa do clássico jogo Batalha Naval, criada para praticar lógica, manipulação de matrizes bidimensionais e técnicas de sobreposição de áreas de efeito em C.
+
+✨ Sobre o Projeto
+Neste desafio, além de posicionar navios em um tabuleiro 10x10, você irá visualizar dinamicamente o impacto de três habilidades especiais: Cone, Cruz e Octaedro.
+Cada habilidade é representada por uma matriz de área de efeito e pode ser aplicada em qualquer posição do tabuleiro, destacando as casas afetadas sem sobrescrever os navios.
+
+🔥 Funcionalidades
+Tabuleiro 10x10 com navios posicionados manualmente (sem sobreposição e sem tocar as bordas).
+
+Habilidades Especiais:
+
+Cone: área expandida em formato triangular.
+
+Cruz: área em formato de cruz centralizada.
+
+Octaedro: área em formato de losango (octaedro visto de frente).
+
+Visualização separada: cada habilidade pode ser aplicada em qualquer ponto do tabuleiro e visualizada individualmente.
+
+Exibição organizada no terminal, com simbolização clara:
+~ = água, N = navio, * = área de habilidade.
+
+Código totalmente modular e comentado, facilitando adaptações e entendimento didático.
+
+📋 Estrutura do Código
+Matrizes de habilidade criadas dinamicamente usando loops e condicionais.
+
+Função de sobreposição garante que a área afetada não ultrapasse os limites do tabuleiro nem sobrescreva navios.
+
+Exibição do tabuleiro e das áreas de habilidade para análise visual.
+
+🖥️ Exemplo de Saída
+>> Matriz de Habilidade: CONE
+0 0 1 0 0 
+0 1 1 1 0 
+1 1 1 1 1 
+1 1 1 1 1 
+0 0 0 0 0 
+
+>> Matriz de Habilidade: CRUZ
+0 0 1 0 0 
+0 0 1 0 0 
+1 1 1 1 1 
+0 0 1 0 0 
+0 0 1 0 0 
+
+>> Matriz de Habilidade: OCTAEDRO
+0 0 1 0 0 
+0 1 1 1 0 
+1 1 1 1 1 
+0 1 1 1 0 
+0 0 1 0 0 
+
+Compile o código:
+
+text
+gcc batalha_naval.c -o batalha_naval
+Execute no terminal:
+
+text
+./batalha_naval
+🧠 Conceitos Praticados
+Lógica de matrizes bidimensionais
+
+Funções, loops aninhados e condicionais
+
+Manipulação de áreas de efeito em matrizes
+
+Exibição formatada de dados no console
+
+Organização e documentação para projetos didáticos
+
+🚀 Personalização
+Para mudar o ponto de origem das habilidades, basta alterar os parâmetros na função sobrepor no main.
+
+Para mudar a forma de cada habilidade, basta ajustar as funções de construção das matrizes.
+
+👨‍💻 Autor
+Desenvolvido por Thamires Oliveira, como exercício avançado como parte do projeto educacional MateCheck 
+– Cursos-TI, com foco no aprendizado prático de lógica e programação em linguagem C.
+
+📝 Licença
+MIT — uso livre para fins educacionais e acadêmicos.
+
+Prepare-se para uma experiência visual interativa e profissional com matrizes em C! Bom código — boa batalha! 🎯🚀

@@ -1,39 +1,37 @@
 🛥️ Desafio Batalha Naval – Nível Novato
-O Desafio Batalha Naval – Nível Novato é uma atividade introdutória de programação em linguagem C, criada para praticar o uso de vetores e matrizes bidimensionais.
-O objetivo é representar um tabuleiro de Batalha Naval 10x10 com dois navios posicionados manualmente e exibir o resultado no console.
 
-🎯 Objetivos do Desafio
-Representar um tabuleiro 10x10 usando uma matriz bidimensional.
+Bem-vindo ao Desafio Batalha Naval – Nível Novato, uma atividade introdutória de programação em C desenvolvida para fortalecer o domínio sobre vetores e matrizes bidimensionais!
 
-Posicionar dois navios no tabuleiro:
+🎯 Objetivos
 
-Um horizontalmente.
+Representar um tabuleiro 10x10 com uma matriz bidimensional.
 
-Outro verticalmente.
+Posicionar manualmente dois navios (um horizontal e um vertical).
 
-Exibir o tabuleiro completo no console:
+Exibir no console o tabuleiro final, onde:
 
-0 representa água.
+0 representa água;
 
-3 representa parte de um navio.
+3 representa parte do navio.
 
 🧩 Funcionalidades Implementadas
-O tabuleiro é inicializado com 0 em todas as posições.
 
-Dois navios ocupam 3 posições cada no tabuleiro.
+O tabuleiro é inicializado com zeros.
 
-As posições iniciais dos navios são definidas diretamente no código.
+Cada navio ocupa 3 blocos contíguos (horizontal e vertical).
 
-O programa garante que:
+As posições dos navios são definidas diretamente no código.
 
-Os navios ficam dentro dos limites do tabuleiro.
+Regras garantidas:
 
-Não há sobreposição entre eles.
+Nenhum navio sai dos limites do tabuleiro.
 
-O resultado final é exibido de forma organizada e legível no console.
+Não há sobreposição entre navios.
+
+Exibição alinhada e legível do tabuleiro, facilitando a visualização.
 
 🖥️ Exemplo de Saída
-text
+
 === TABULEIRO BATALHA NAVAL ===
 0 = água | 3 = navio
 
@@ -47,44 +45,66 @@ text
 0 3 0 0 0 0 0 0 0 0
 0 3 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0
-🧠 Conceitos Trabalhados
-Declaração e inicialização de matrizes.
 
-Estruturas de repetição (for).
+🧠 Conceitos Praticados
 
-Manipulação de índices em arrays bidimensionais.
+Declaração e inicialização de matrizes bidimensionais;
+
+Uso de loops aninhados (for) para percorrer o tabuleiro;
+
+Manipulação de índices em arrays;
 
 Impressão formatada no console com printf.
 
 ⚙️ Como Executar
-Compile o código com:
 
-text
+Compile o código:
 gcc batalha_naval.c -o batalha
-Execute o programa:
 
-text
+Execute:
 ./batalha
-💡 Estrutura do Código
-Seção	Descrição
-Declaração da matriz	Cria e inicializa o tabuleiro 10x10 com zeros
-Posicionamento dos navios	Define coordenadas e preenche o tabuleiro com valor 3
-Exibição	Mostra o tabuleiro completo no console
+
+💡 Como o Código Está Organizado
+
+O programa é dividido em três seções principais para garantir clareza, lógica e fácil manutenção:
+
+1. Declaração e inicialização do tabuleiro
+O código cria uma matriz bidimensional 10x10 chamada tabuleiro.
+
+Todos os elementos da matriz são inicializados com 0, representando água.
+
+2. Posicionamento manual dos navios
+Os navios são inseridos diretamente no tabuleiro, escolhendo coordenadas seguras:
+
+Navio horizontal: três posições consecutivas na mesma linha.
+
+Navio vertical: três posições consecutivas na mesma coluna.
+
+O valor 3 é usado para indicar as partes do navio.
+
+O código evita sobreposição e garante que os navios não saiam dos limites do tabuleiro.
+
+3. Exibição formatada do tabuleiro
+Utiliza loops aninhados para percorrer cada linha e coluna da matriz.
+
+Exibe o tabuleiro de modo organizado, com separação clara entre linhas e colunas.
+
+Os resultados são apresentados no console, permitindo fácil checagem visual do posicionamento dos navios.
+
+💡 Todo o código inclui comentários explicativos, tornando o entendimento do fluxo e da lógica muito mais simples!
+
+
 🧾 Requisitos
 Linguagem: C
 
-Bibliotecas: apenas stdio.h
+Biblioteca: apenas stdio.h
 
-Entrada: definida manualmente no código
+Entrada: manual, definida no próprio código
 
-Saída: exibição do tabuleiro completo no console
+Saída: tabuleiro 10x10 exibido no console
 
-🚀 Próximos Passos
-Após concluir o Nível Novato, os próximos níveis do desafio incluem:
-
-Nível Aventureiro: tabuleiro expandido com posicionamentos diagonais.
-
-Nível Mestre: habilidades especiais (cone, cruz e octaedro) utilizando padrões em matrizes.
 
 👩‍💻 Autor
-Desenvolvido como parte do projeto educacional MateCheck – Cursos-TI, voltado para o aprendizado prático de lógica e programação em C.
+Desenvolvido por Thamires Oliveira como parte do projeto educacional MateCheck – Cursos-TI, com foco no aprendizado prático de lógica e programação em linguagem C.
+
+Bons estudos e boa batalha! 🚢💻

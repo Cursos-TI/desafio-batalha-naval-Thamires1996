@@ -1,0 +1,70 @@
+🚢 Batalha Naval em C – Nível Aventureiro
+
+Uma implementação clássica do jogo Batalha Naval feita para treinar o uso de matrizes, loops aninhados e organização de código em linguagem C.
+
+✨ Desafio
+
+Monte um tabuleiro 10x10 com:
+
+⭐ 2 navios horizontais, cada um ocupando 3 blocos contíguos, centralizados e sem tocar as bordas.
+
+⭐ 2 navios diagonais, também com 3 blocos cada, sem cruzar bordas nem sobrepor outros navios.
+
+Nenhum navio se sobrepõe ou encosta nas bordas!
+
+📋 Funcionalidades
+
+Posicionamento seguro e manual dos navios na matriz, com validação visual.
+
+Exibição elegante e alinhada do tabuleiro via console.
+
+Código totalmente comentado para facilitar o entendimento.
+
+🖼️ Exemplo Visual
+
+=== TABULEIRO BATALHA NAVAL ===
+0 = água | 3 = navio
+
+     0  1  2  3  4  5  6  7  8  9
+   ------------------------------
+ 0 |  0  0  0  0  0  0  0  0  0  0
+ 1 |  0  0  0  0  0  0  0  0  3  0
+ 2 |  0  3  0  0  0  0  0  3  0  0
+ 3 |  0  0  3  0  0  0  3  0  0  0
+ 4 |  0  0  0  3  0  0  0  0  0  0
+ 5 |  0  0  0  0  0  0  0  0  0  0
+ 6 |  0  3  3  3  0  0  0  0  0  0
+ 7 |  0  0  0  0  0  0  0  0  0  0
+ 8 |  0  0  0  0  3  3  3  0  0  0
+ 9 |  0  0  0  0  0  0  0  0  0  0
+
+🚀 Como Usar
+
+Salve o código como batalha_naval.c.
+
+Compile com GCC:
+gcc batalha_naval.c -o batalha_naval
+
+Execute no terminal:
+./batalha_naval
+
+🔍 Principais Conceitos
+
+Manipulação de matriz bidimensional.
+
+Uso de loops aninhados para exibição.
+
+Organização de código comentado e legível.
+
+Simulação de estratégias visuais para jogos em C.
+
+💡 Observação
+Este projeto é um exercício didático — ideal para aprender lógica de programação, organização de dados em matrizes e boas práticas em C.
+
+👩‍💻 Autor
+Desenvolvido por Thamires Oliveira como parte do projeto educacional MateCheck – Cursos-TI, com foco no aprendizado prático de lógica e programação em linguagem C.
+
+📝 Licença
+MIT — Sinta-se livre para usar e adaptar esse código!
+
+Divirta-se estudando e aperfeiçoando sua lógica! 🚢🔥

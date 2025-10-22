@@ -62,7 +62,8 @@ Simulação de estratégias visuais para jogos em C.
 Este projeto é um exercício didático — ideal para aprender lógica de programação, organização de dados em matrizes e boas práticas em C.
 
 👩‍💻 Autor
-Desenvolvido por Thamires Oliveira como parte do projeto educacional MateCheck – Cursos-TI, com foco no aprendizado prático de lógica e programação em linguagem C.
+Desenvolvido por Thamires Oliveira como parte do projeto educacional 
+ – Cursos-TI, com foco no aprendizado prático de lógica e programação em linguagem C.
 
 📝 Licença
 MIT — Sinta-se livre para usar e adaptar esse código!

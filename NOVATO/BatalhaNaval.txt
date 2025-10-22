@@ -105,6 +105,7 @@ Saída: tabuleiro 10x10 exibido no console
 
 
 👩‍💻 Autor
-Desenvolvido por Thamires Oliveira como parte do projeto educacional MateCheck – Cursos-TI, com foco no aprendizado prático de lógica e programação em linguagem C.
+Desenvolvido por Thamires Oliveira como parte do projeto educacional 
+ – Cursos-TI, com foco no aprendizado prático de lógica e programação em linguagem C.
 
 Bons estudos e boa batalha! 🚢💻
